@@ -32,7 +32,7 @@ int main(int argc, char* argv[]) {
     curl_global_init(CURL_GLOBAL_ALL);
     
     // Замените на ваш токен и ID чата
-    std::string token = "7138766004:AAG7pIAnbOLRVpJQ3bjNq1Sk7h1y9xNeK_o";
+    std::string token = "token";
     std::string chat_id = "t.me/ptosamples_Bot";
     
     sendMessage(token, chat_id, "Привет! Это тестовое сообщение.");
